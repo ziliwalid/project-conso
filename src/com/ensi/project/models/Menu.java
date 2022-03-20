@@ -10,7 +10,7 @@ public class Menu {
 
     public Menu() {
         this.in = new Scanner(System.in);
-        this.projet = new Projet(1, 4, in);
+        this.projet = new Projet(1, 4, in);//weeks or days?
     }
 
     public void execute() {

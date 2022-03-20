@@ -37,4 +37,18 @@ public class Conso {
     public void setProgrammeur_id(int programmeur_id) {
         this.programmeur_id = programmeur_id;
     }
+
+
+    @Override
+    public String toString() {
+        return "Conso{" +
+                "num_semaine=" + num_semaine +
+                ", nb_tasses=" + nb_tasses +
+                ", programmeur_id=" + programmeur_id +
+                '}';
+    }
+
+    public void showConso() {
+        System.out.println(this.toString());
+    }
 }
